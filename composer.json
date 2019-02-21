@@ -1,0 +1,17 @@
+{
+    "name": "kabeer/mysql_connection",
+    "authors": [
+        {
+            "name": "kabeermsn",
+            "email": "kabeer@4spots.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.6"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Test\\Orm\\Doctrine\\": "src" 
+        }
+    }
+}
